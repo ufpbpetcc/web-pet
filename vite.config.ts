@@ -4,6 +4,9 @@ import { presetIcons } from 'unocss/preset-icons';
 import { presetWind } from 'unocss'
 import unoCSS from 'unocss/vite';
 
+// @ts-ignore
+console.log(import.meta.env);
+
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
@@ -19,5 +22,6 @@ export default defineConfig({
       presets: [presetWind(), presetIcons()]
     })
   ],
+  // @ts-ignore
   base: "/proxy/5173/"
 })

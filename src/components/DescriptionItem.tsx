@@ -1,6 +1,6 @@
 import '@fontsource/montserrat/variable.css';
 
-export function NewsItem(props: { title: string }) {
+export function DescriptionItem(props: { title: string }) {
     let icon: string;
     switch (props.title) {
         case "Pesquisa":
