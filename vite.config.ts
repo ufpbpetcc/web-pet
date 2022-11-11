@@ -22,6 +22,4 @@ export default defineConfig({
       presets: [presetWind(), presetIcons()]
     })
   ],
-  // @ts-ignore
-  base: "/proxy/5173/"
 })
