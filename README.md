@@ -13,7 +13,7 @@ $ npm install | $ yarn install | $ pnpm install
 ```
 Após fazer modificações, utilize o comando deploy para enviar as mudanças para o Github Pages:
 ```bash
-$ npm run deploy | $ yarn deploy | pnpm deploy
+$ npm run deploy | $ yarn deploy | $ pnpm deploy
 ```
 
 ## ⚡ Notion:
