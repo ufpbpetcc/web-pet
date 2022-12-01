@@ -2,6 +2,7 @@ import BgWave from '../BgWave';
 import '@fontsource/inter/variable.css';
 import '@fontsource/lexend/variable.css';
 import { MenuItem } from '../MenuItem';
+// @ts-ignore
 import TypeIt from 'typeit-react';
 
 export function IntroPage() {
