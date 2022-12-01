@@ -1,4 +1,5 @@
 # 🖥️ Site PET Ciência da Computação
+
 ## Clone e inicialize o projeto:
 Clone o repositório
 ```bash
@@ -11,9 +12,9 @@ Instale as dependências:
 ```bash
 $ npm install | $ yarn install | $ pnpm install
 ```
-Após fazer modificações, utilize o comando deploy para enviar as mudanças para o Github Pages:
+Para inicializar o site localmente:
 ```bash
-$ npm run deploy | $ yarn deploy | $ pnpm deploy
+$ npm run dev | $ yarn dev | $ pnpm dev
 ```
 
 ## ⚡ Notion:
