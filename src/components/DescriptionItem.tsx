@@ -17,10 +17,10 @@ export function DescriptionItem(props: { title: string }) {
     }
 
     return (
-        <div className="h-full rounded-xl w-full bg-[#040422] px-5 font-inter">
-            <div className={icon + " text-[#38BCDE] text-4xl my-8"}></div>
+        <div className="h-full rounded-xl w-full bg-[#040422] px-5 font-inter py-8">
+            <div className={icon + " text-[#38BCDE] text-4xl mb-8"}></div>
             <div className="font-montserrat text-xl font-bold mb-8">{props.title}</div>
-            <div className="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget nisi facilisis, auctor dolor vitae, rutrum lacus. Sed congue rhoncus ex, non elementum dui tempus in. Maecenas malesuada magna ac finibus maximus.</div>
+            <div className="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget nisi facilisis, auctor dolor vitae, rutrum lacus. Sed congue rhoncus ex, non elementum dui tempus in.</div>
         </div>
     )
 }

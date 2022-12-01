@@ -1,19 +1,14 @@
-import { IntroPage } from './components/pages/IntroPage';
-import { Descricao } from './components/pages/Descricao';
-import { Noticias } from './components/pages/Noticias';
-import { Parceiras } from './components/pages/Parceiras';
-import { Footer } from './components/pages/Footer';
+import { IntroPage } from './components/inicio/sections/IntroPage';
+import { Descricao } from './components/inicio/sections/Descricao';
+import { Noticias } from './components/inicio/sections/Noticias';
+import { Parceiras } from './components/inicio/sections/Parceiras';
+import { Footer } from './components/inicio/sections/Footer';
 import './App.css';
+import Inicio from './components/inicio/Inicio';
 
 function App() {
     return (
-        <>
-            <IntroPage />
-            <Descricao />
-            <Noticias />
-            <Parceiras />
-            <Footer />
-        </>
+        <Inicio />
     )
 }
 

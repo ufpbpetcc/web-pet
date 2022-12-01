@@ -1,4 +1,4 @@
-import { DescriptionItem } from "../DescriptionItem";
+import { DescriptionItem } from "../../DescriptionItem";
 
 export function Descricao() {
     return (
@@ -7,8 +7,8 @@ export function Descricao() {
                 text-white font-inter h-1/2">
                 <div className="w-full grid grid-flow-col my-auto">
                     <div>
-                        <div className="mb-10 font-lexend text-5xl font-bold w-1/2">Conheça o PET Computação</div>
-                        <div className="w-1/2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget nisi facilisis, auctor dolor vitae, rutrum lacus. Sed congue rhoncus ex, non elementum dui tempus in. Maecenas malesuada magna ac finibus maximus. Duis aliquet auctor sem, porta vulputate velit faucibus ac. Aliquam vel quam nisi. Pellentesque viverra dui nec lorem interdum, sed accumsan ipsum pellentesque. Nullam vulputate condimentum fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget nisi facilisis, auctor dolor vitae, rutrum lacus. Sed congue rhoncus ex, non elementum dui tempus in.</div>
+                        <div className="mb-10 font-lexend text-5xl font-bold w-full">Conheça o PET Computação</div>
+                        <div className="w-2/3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget nisi facilisis, auctor dolor vitae, rutrum lacus. Sed congue rhoncus ex, non elementum dui tempus in. Maecenas malesuada magna ac finibus maximus. Duis aliquet auctor sem, porta vulputate velit faucibus ac. Aliquam vel quam nisi.</div>
                     </div>
                     <div className="bg-white rounded-full w-50 h-50 text-center
                     text-black flex justify-center items-center mr-20">

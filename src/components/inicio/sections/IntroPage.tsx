@@ -1,29 +1,15 @@
-import BgWave from '../BgWave';
+import BgWave from '../../BgWave';
 import '@fontsource/inter/variable.css';
 import '@fontsource/lexend/variable.css';
-import { MenuItem } from '../MenuItem';
+import { MenuItem } from '../../MenuItem';
 // @ts-ignore
 import TypeIt from 'typeit-react';
+import Header from '../../Header';
 
 export function IntroPage() {
   return (
     <div className="w-full h-full relative bg-[#182240] text-white font-inter font-500 overflow-hidden">
-        <div className="absolute w-[140%] h-[140%] rotate-[-35deg] overflow-x-hidden"
-        style={{ backgroundImage: "url(fish.svg)" }} />
-      <BgWave />
-      {/* TODO: remover display: absolute do menu. */}
-      <div className="grid grid-flow-col absolute pt-7 px-30 w-full box-border">
-        <img src="Logo.svg" alt="Logo do PET Ciência da Computação" className="mr-auto" />
-        <div className="ml-auto grid grid-flow-col gap-10 place-items-center text-decoration-none children:cursor-pointer">
-          <MenuItem selected={true} text="Início" href="" />
-          <MenuItem selected={false} text="História" href="" />
-          <MenuItem selected={false} text="Time" href="" />
-          <MenuItem selected={false} text="Projetos" href="" />
-          <MenuItem selected={false} text="SDC" href="" />
-          <hr className="h-1/2 bg-white" />
-          <MenuItem selected={false} text="Artigos" href="" />
-        </div>
-      </div>
+      <Header />
       <div className="bg-[#2E3F70] w-[45vw] h-[45vw] rounded-full
           absolute right-1/3 bottom-0 translate-x-1/2 translate-y-1/4">
         <img src="Hero Img.png" alt="Petrúcio" className="absolute top-1/2 left-1/2

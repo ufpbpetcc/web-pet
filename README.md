@@ -19,4 +19,4 @@ $ npm run dev | $ yarn dev | $ pnpm dev
 
 ## ⚡ Links Úteis:
 - [Notion](https://samanthadm37.notion.site/Site-PET-Computa-o-4e9a27715e1d40b489163ead93633507)
-- [Deploy](https://6388b65dec90280f9eea3fa7--verdant-cactus-d3fa82.netlify.app/)
+- [Deploy](https://verdant-cactus-d3fa82.netlify.app//)

@@ -24,14 +24,16 @@ export function Footer() {
                         top-1/2 -translate-y-1/2 transform translate-x-1/2"></div>
                 </div>
             </div>
-            <div className="row-span-2 bg-[#1F2B53] px-60 overflow-hidden text-white font-montserrat">
+            <div className="row-span-2 bg-[#1F2B53] px-20 overflow-hidden
+                text-white font-montserrat flex items-center">
                 <div className="grid grid-cols-9">
                     <div className="col-span-4">
-                        <div className="inline-flex items-center mb-10 mt-20">
+                        <div className="inline-flex justify-center mb-10 mt-20">
                             <img src="Hero Img.png" alt="Hero Img" className="h-180px" />
-                            <div className="ml-2 font-bold text-5xl">PET<br />Computação</div>
+                            <div className="ml-10 font-bold text-3xl">PET<br />Computação<br/>
+                            <span className="text-sm font-normal">PET Computação 2022.<br/>Todos os direitos reservados.</span>
+                            </div>
                         </div>
-                        <div>PET Computação 2022<br />Todos os direitos reservados.</div>
                     </div>
                     <div className="col-span-2 flex flex-col justify-center gap-5">
                         <div className="font-bold">Contato</div>
