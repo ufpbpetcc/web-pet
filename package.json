@@ -6,11 +6,13 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "pnpm run build && type nul > build/.nojekyll && gh-pages -t -d build"
   },
   "dependencies": {
     "@fontsource/lexend": "^4.5.13",
     "@unocss/preset-icons": "^0.45.29",
+    "@unocss/transformer-variant-group": "^0.47.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "typeit-react": "^2.6.0"
