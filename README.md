@@ -1,3 +1,6 @@
+# ⚠️ ARQUIVADO
+Este repositório foi arquivado a favor do novo projeto do website em [github.com/petccufpb/website](https://github.com/petccufpb/website).
+
 # 🖥️ Site PET Ciência da Computação
 
 ## Clone e inicialize o projeto:
